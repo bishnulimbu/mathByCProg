@@ -3,4 +3,8 @@
 
 float f(float x) { return pow(x, 3) + 2 * x - 1; };
 
-int main() { printf("hello world1"); }
+int main() {
+  printf("hello world1");
+
+  return 0;
+}
