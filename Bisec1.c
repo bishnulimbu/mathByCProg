@@ -4,7 +4,6 @@
 float f(float x) { return pow(x, 3) + 2 * x - 1; };
 
 int main() {
-  printf("hello world1");
   float x1, x2, x0, x, err = 0.001;
   printf("enter the first case.");
   scanf("%f", &x1);
