@@ -20,7 +20,7 @@ int main() {
     } else {
       x2 = x0;
     }
-  } while (fabs(f(x0)) > err);
+  } while (fabs(x2 - x1) > err);
   printf("%f", x0);
 
   return 0;
