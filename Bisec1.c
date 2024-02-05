@@ -16,9 +16,9 @@ int main() {
   do {
     x0 = (x1 + x2) / 2;
     if (f(x1) * f(x0) > 0) {
-      x0 = x1;
+      x1 = x0;
     } else {
-      x0 = x2;
+      x2 = x0;
     }
   } while (fabs(f(x0)) > err);
   printf("%f", x0);
